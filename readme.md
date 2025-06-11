@@ -21,12 +21,25 @@ gh auth status
 
 
 
-# 
+# Working with pushing code to git 
 git init 
 git add . 
-git commit -m ""
+git commit -m "message"
+
+git config --global user.name ""
+git config --global user.email ""
 
 gh repo create microservice-config-repo-sample --public
+# this will re turn the url 
+git remote add origin url 
+git push -u origin master 
 
-git push 
+git remote -v
+git remote show origin 
+
+
+# microservice rpoject 
+git checkout config-server
 ```
+
+## keep it as private 
