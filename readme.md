@@ -1,4 +1,4 @@
-## NOTE 
+## NOTE (Config Repository )
 
 this is the sample git repo for the spring config server 
 
@@ -6,7 +6,7 @@ this is the sample git repo for the spring config server
 * Git scm : 
 * Git Repo ( Github , Gitlab , Bitbucket )
 
-# Testing 
+
 
 ```bash 
 sudo apt install gh -y 
@@ -43,3 +43,8 @@ git checkout config-server
 ```
 
 ## keep it as private 
+
+* To run the shellscript for autopush 
+```bash 
+bash autopush.sh "my commit message" 
+```
