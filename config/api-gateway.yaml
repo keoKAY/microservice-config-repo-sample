@@ -22,6 +22,7 @@ spring:
                       - RewritePath=/users/(?<segment>.*), /api/v1/users/$\{segment}
     application:
       name: api-gateway
+      
 server:
   port: 8282
 eureka:
