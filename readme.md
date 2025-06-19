@@ -48,3 +48,10 @@ git checkout config-server
 ```bash 
 bash autopush.sh "my commit message" 
 ```
+*** 
+ 
+
+* to pull the code from git 
+```bash 
+git pull origin master
+```
